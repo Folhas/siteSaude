@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png">
+    <link id="stylesheet" rel="stylesheet" href="lightTheme.css">
+    <title>Saúde Hoje</title>
+</head>
+<body>
+    <header>
+        <div id="logoContainer">
+            <img id="logo" src="./img/logo.png">
+        </div>
+
+        <div id="nameContainer">
+            <p>Saúde Hoje</p>
+        </div>
+
+        <div id="themeToggleConatiner">
+            <button id="themeToggle" onclick="switchTheme()">🌙</button>
+        </div>
+    </header>
+    <div id="mainContent">
+        <div id="sideBarMenuContainer">
+            <div id="sideBarMenu">
+                <div id="menuTitleContainer">
+                    <p>MENU</p>  
+                </div>
+                <div id="menuContentContainer">
+                    <ul>
+                        <li><a href="modernidadeNaSaude.html">Modernidade na Saúde Física</a></li>
+                        <hr>
+                        <li><a href="eletroPatches.html">EletroPatches (micro-patches personalizáveis)</a></li>
+                        <hr>
+                        <li><a href="bioPersonal.html">BioPersonal (digital twin de saúde)</a></li>
+                        <hr>
+                        <li><a href="VRHalls.html">AR/VR Halls (salas imersivas)</a></li>
+                        <hr>
+                        <li><a href="recoverNow.html">RecoverNow (pods de recuperação rápida)</a></li>
+                        <hr>
+                        <li><a href="otimizaFit.html">OtimizaFit (treinos otimizados por tempo)</a></li>
+                        <hr>
+                        <li><a href="specialClothes.html">SpecialClothes (roupa sensorizada)</a></li>
+                        <hr>
+                        <li><a href="everywhereGym.html">Everywhere Gym (arquitetura ativa urbana)</a></li>
+                    </ul>
+                </div>
+            </div>
+            <button id="sideBarMenuBtn" onclick="showSideBarMenu()"><p><-</p></button>
+        </div>
+
+        <div id="healthNewsContainer">
+            
+            <div id="newsNameContainer">
+                <p>Notícias</p>
+            </div>
+
+            <div id="healthNewsSection">
+
+                <a id="news#1link" href="https://www.estadao.com.br/emais/moda-e-beleza/eletroestimulacao-muscular-e-a-nova-mania-fitness-das-atrizes/">
+                    <div class="news" id="news#1">
+                        <img class="newsimg" id="news#1img" src="img/news1img.avif">
+                        <div class="newsDesc" id="newsDesc#1">
+                            <p>Eletroestimulação Muscular é a Nova Mania Fitness das Atrizes</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a id="news#2link" href="https://casapino.com.br/viver-bem/saude-e-bem-estar/tecnologia-xbody-eletroestimulacao-muscular-ajuda-a-emagrecer/">
+                    <div class="news" id="news#2">
+                        <img class="newsimg" id="news#2img" src="img/news2img.jpg">
+                        <div class="newsDesc" id="newsDesc#2">
+                            <p>Malhar Tomando “Choque”? Academia de Curitiba Traz Proposta</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a id="news#3link" href="https://saude.abril.com.br/fitness/eletroestimulacao-substitui-academia/">
+                    <div class="news" id="news#3">
+                        <img class="newsimg" id="news#3img" src="img/news3img.webp">
+                        <div class="newsDesc" id="newsDesc#3">
+                            <p>Eletroestimulação Substitui Academia</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a id="news#4link" href="https://www.jornale.com.br/post/hospital-inc-lan%C3%A7a-livros-especializados-em-medicina-no-congresso-brasileiro-de-neurocirurgia">
+                    <div class="news" id="news#4">
+                        <img class="newsimg" id="news#4img" src="img/news4img.avif">
+                        <div class="newsDesc" id="newsDesc#4">
+                            <p>Hospital INC Lança Livros Especializados em Medicina</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
