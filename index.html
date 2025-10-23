@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +9,11 @@
 </head>
 <body>
     <header>
-        <div id="logoContainer">
-            <img id="logo" src="./img/logo.png">
-        </div>
+        <a href="index.html">
+            <div id="logoContainer">
+                <img id="logo" src="./img/logo.png">
+            </div>
+        </a>
 
         <div id="nameContainer">
             <p>Saúde Hoje</p>
@@ -20,7 +22,83 @@
         <div id="themeToggleConatiner">
             <button id="themeToggle" onclick="switchTheme()">🌙</button>
         </div>
+
+        <span><p id="userName">Convidado</p></span>
+
+        <button id="loginButton">Login</button>
     </header>
+
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <h2>Bem-vindo!</h2>
+            <form id="loginForm">
+                Nome/E-mail <br><input type="text" id="loginName"> <br>
+                Senha <br><input type="password" id="loginPassword"> <br> <br>
+            <button id="continueAsGuest">Continuar como convidado</button>
+            <button id="login">Entrar</button>    
+            </form>
+            
+        </div>
+    </div>
+    <div id="gallery">
+            <button class="galleryButton" id="backwardGallery" onclick="previousImg()"><</button>
+            <img src="" id="imgInGallery">
+            <button class="galleryButton" id="forwardGallery" onclick="nextImg()">></button>
+            <div id="galleryDescContainer">
+                <a href="" id="descLink"><h2 id="galleryDesc"></h2></a>
+            </div>
+        </div>
+
+
+    <div id="intro">
+        <h1>Bem-vindo ao Saúde Hoje</h1>
+        <p>Seu portal de notícias sobre saúde e bem-estar.</p> <br>
+        <p>Em 2050, saúde é sinônimo de integração, personalização e tecnologia de ponta. O corpo e a mente agora contam com aliados digitais, adesivos inteligentes, realidades imersivas e ambientes urbanos pensados para o movimento constante. <br>
+        No Saúde Hoje, você encontra tudo sobre as inovações mais impactantes que estão transformando a forma como cuidamos do corpo, da mente e da longevidade. <br>
+        Explore nossos artigos, análises, entrevistas e reviews com os especialistas que estão moldando o novo corpo humano. Aqui, você não acompanha tendências, você vive o próximo nível da saúde. <br>
+ 
+        Viva o corpo do futuro, hoje. <br>
+        No Saúde Hoje, você acompanha as tendências, tecnologias e experiências que estão redefinindo o que é ser saudável, ativo e conectado. Saúde não é mais uma escolha isolada, é um ecossistema integrado à sua vida, à sua cidade e à sua identidade digital.</p>
+        <hr>
+        <p><span>Modern Fit</span> <br>
+ 
+        As academias tradicionais deram lugar ao Modern Fit, um novo conceito de centros de treino que utilizam bioestimulação por eletrólitos para ativar os músculos de forma precisa, eficiente e com menor desgaste físico. A era dos pesos cegos acabou: agora, cada movimento é otimizado com inteligência e ciência.</p>
+        <hr>
+        <p><span>EletroPatches</span> <br>
+        
+        No lugar de wearables simples, surgiram os EletroPatches, adesivos inteligentes personalizados que se conectam ao seu organismo e ajustam estímulos conforme seu perfil genético e metabólico. Esses micro-patches monitoram, estimulam e reagem em tempo real, oferecendo suporte contínuo para performance e recuperação.
+        </p>
+        <hr>
+        <p><span>Bio Personal</span> <br>
+        
+        A personalização vai além com o BioPersonal, um digital twin de saúde, ou seja, uma réplica digital do seu corpo baseada nos seus dados genéticos, hábitos e condições fisiológicas. Com ele, é possível simular resultados de treinos, dietas e terapias antes mesmo de colocá-los em prática, alcançando um novo nível de precisão e prevenção.
+        </p>
+        <hr>
+        <p><span>AR/VR Halls</span> <br>
+        
+        A experiência de treino se torna ainda mais envolvente nas AR/VR Halls, salas imersivas com realidade aumentada e virtual que transportam você para cenários totalmente customizados, de trilhas em Marte a combates gamificados em arenas futuristas, com feedback sensorial e inteligência adaptativa para cada tipo de objetivo.
+        </p>
+        <hr>
+        <p><span>RecoverNow</span> <br>
+        
+        Depois da atividade intensa, o corpo encontra sua regeneração nas cápsulas RecoverNow, que combinam crioterapia, oxigenoterapia, luz terapêutica e microestímulos musculares. Em apenas 20 minutos, seu corpo passa por um ciclo completo de recuperação, ideal para manter alto rendimento com segurança.
+        </p>
+        <hr>
+        <p><span>OtimizaFit</span> <br> 
+        
+        Nem todo mundo tem horas livres para treinar nos tempos modernos, e por isso nasceu o OtimizaFit, uma IA que monta treinos eficientes com base no tempo que você tem disponível, sejam 5 minutos entre reuniões ou 30 minutos antes de dormir. Cada rotina é adaptada ao seu estado atual, metas e histórico.
+        </p>
+        <hr>
+        <p><span>SpecialClothes</span> <br>
+        
+        As roupas também evoluíram. As SpecialClothes são peças do dia a dia com sensores discretos que monitoram movimento, postura, esforço muscular e oferecem feedback contínuo por meio de aplicativos conectados. O cuidado com o corpo passa a estar presente 24/7, sem esforço.
+        </p>
+        <hr>
+        <p><span>Everywhere Gym</span> <br> 
+        
+        A cidade automatizada, e com necessidade de movimentação mínima, se tornou uma inimiga da saúde, mas com a Arquitetura Ativa Urbana, conhecida como Everywhere Gym, parques, calçadas, praças e edifícios incorporam estações de treino, barras inteligentes, bancos interativos e escadarias que estimulam exercícios no fluxo da rotina urbana.
+        </p>
+    </div>
     <div id="mainContent">
         <div id="sideBarMenuContainer">
             <div id="sideBarMenu">
@@ -29,7 +107,7 @@
                 </div>
                 <div id="menuContentContainer">
                     <ul>
-                        <li><a href="modernidadeNaSaude.html">Modernidade na Saúde Física</a></li>
+                        <li><a href="modernidadeNaSaude.html">Modern Fit</a></li>
                         <hr>
                         <li><a href="eletroPatches.html">EletroPatches</a></li>
                         <hr>

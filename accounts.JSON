@@ -1,0 +1,68 @@
+{
+    "gustavo": {
+        "name": "Gustavo",
+        "email": "gustavo.mcampos1@senacsp.edu.br",
+        "password": "Gustavo123",
+        "language": "en",
+        "tags": [
+           "fromsoftware",
+           "soulslike"
+        ]
+    },
+    "mariana": {
+        "name": "Mariana",
+        "email": "mariana.zcrodrigues@senacsp.edu.br",
+        "password": "Mariana123",
+        "language": "en",
+        "tags": [
+            "gossip",
+            "psychology"
+        ]
+    },
+    "miguel": {
+        "name": "Miguel",
+        "email": "miguel.mkfaga@senacsp.edu.br",
+        "password": "Miguel123",
+        "language": "pt",
+        "tags": [
+            "culinária"
+        ]
+    },
+    "helena": {
+        "name": "Helena",
+        "email": "helena.mesilva@senacsp.edu.br",
+        "password": "Helena123",
+        "language": "pt",
+        "tags": [
+            "maquiagem"
+        ]
+    },
+    "rai": {
+        "name": "Raí",
+        "email": "rai.pdias@senacsp.edu.br",
+        "password": "amor2005",
+        "language": "en",
+        "tags": [
+            "kentucky-fried-chicken"
+        ]
+    },
+    "emerson": {
+        "name": "Emerson",
+        "email": "emerson.sbrito@senacsp.edu.br",
+        "password": "Emerson123",
+        "language": "pt",
+        "tags": [
+            "informática"
+        ]
+    },
+    "fernando": {
+        "name": "Fernando",
+        "email": "fernando.aribeiro6@senacsp.edu.br",
+        "password": "Fernando123",
+        "language": "pt",
+        "tags": [
+            "silksong",
+            "javascript"
+        ]
+    }
+}
